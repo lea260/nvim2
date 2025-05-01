@@ -5,19 +5,13 @@
 git clone https://github.com/lea260/nvim2.git ~/.config/nvim
 ```
 ````
-```
-
 
 ```bash
-rm ~/.config/nvim{,.bak}
+rm -rf ~/.config/nvim{,.bak}
 # optional but recommended
-rm ~/.local/share/nvim
-rm ~/.local/state/nvim
-rm ~/.cache/nvim{,.bak
-```
-
-
-
+rm -rf ~/.local/share/nvim
+rm -rf ~/.local/state/nvim
+rm -rf ~/.cache/nvim{,.bak}
 
 
 
