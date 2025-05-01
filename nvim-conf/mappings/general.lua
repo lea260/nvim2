@@ -1,0 +1,5 @@
+vim.keymap.set("n", "<A-q>", "<Esc>", { desc = "Salir del modo actual" })
+vim.keymap.set("i", "<A-q>", "<Esc>", { desc = "Salir del modo insertar" })
+vim.keymap.set("v", "<A-q>", "<Esc>", { desc = "Salir del modo visual" })
+vim.keymap.set("s", "<A-q>", "<Esc>", { desc = "Salir del modo seleccionar" })
+vim.keymap.set("c", "<A-q>", "<Esc>", { desc = "Cerrar la ventana de comandos" })
